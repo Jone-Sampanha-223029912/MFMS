@@ -2,7 +2,7 @@
 
 int main()
 {
-    int choice;
+    int option;
 
     printf("========================================\n");
     printf(" MUNICIPAL FINANCIAL MANAGEMENT SYSTEM\n");
@@ -15,9 +15,9 @@ int main()
     printf("6. Exit\n");
     printf("Enter your choice: ");
 
-    scanf("%d", &choice);
+    scanf("%d", &option);
 
-    switch (choice)
+    switch (option)
     {
         case 1:
             printf("\nEmployee Management selected.\n");
